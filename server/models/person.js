@@ -32,6 +32,7 @@ module.exports = function(Person) {
     };
 
     Person.remoteMethod('passTheMessage', {
+        //pwede PUT, pwedeng DELETE
         http: {path: '/say', verb: 'POST'},
         accepts: [
             {arg: 'msgBody', type: 'Object', http: {source: 'body'}},
