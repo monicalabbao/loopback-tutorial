@@ -4,6 +4,13 @@ module.exports = function(Person) {
     Person.greet = (msg) => {
         return Promise.resolve({
             message: msg,
+            arrayMessage: [
+                'gusto',
+                'ko',
+                'maraming',
+                'message',
+            ],
+            numberMessage: 5,
         });
     }
   
