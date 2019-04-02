@@ -2,5 +2,5 @@
   "db": {
     "name": "db",
     "connector": "memory"
-  }
+  }//dito idedefine yung DB
 }
